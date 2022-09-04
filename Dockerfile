@@ -20,7 +20,7 @@ RUN npm install
 
 COPY . .
 
-RUN npx run prisma generate
+RUN npx prisma generate
 
 RUN npm run build
 
